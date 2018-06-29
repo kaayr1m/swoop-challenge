@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "devtest",
+                "projectName": "devtest",
+                "workingDirectory": "/Users/Karim/Documents/sdt",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "devtest",
+                "projectName": "devtest",
+                "workingDirectory": "/Users/Karim/Documents/sdt",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
