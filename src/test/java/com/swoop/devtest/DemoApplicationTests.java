@@ -40,5 +40,17 @@ public class DemoApplicationTests {
 	public void postOnePlusOneEqualsTwo() throws Exception {
 		this.mockMvc.perform(post("/math/add", 1,1)).andExpect(status().isOk()).andExpect(jsonPath("$.result").value(2));
 	}
-
+	
+	/*
+	 * GET : http://<server_url>/time/now
+	 * 
+	 * This should fetch time for MST at time of call from another service
+	 * (https://www.developer.aero/WaitTime-API/Try-it-Now for YYC is a free one)
+	 * and simplify the result to timezone and current time. Return the result or
+	 * the timestring in a rational JSON document.
+	 */
+	@Test
+	public void currentTime() throws Exception {
+		this.mockMvc.perform(get("/time/now")).andExpect(status().isOk());
+	}
 }
