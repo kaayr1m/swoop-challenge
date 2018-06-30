@@ -1,7 +1,6 @@
 package com.swoop.devtest.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.objenesis.strategy.StdInstantiatorStrategy;
 
 public class CurrentTime {
   @JsonProperty("airportCode")
