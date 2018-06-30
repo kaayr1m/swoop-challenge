@@ -1,12 +1,12 @@
 ## Usage
 
-GET: https://safe-island-47056.herokuapp.com/math/add?n1=<numeric param 1>&n2=<numeric param 2>
-POST: https://safe-island-47056.herokuapp.com/math/add	(allow for form params n1=1,n2=2 in a POST body form data)
-GET: https://safe-island-47056.herokuapp.com/time/now
+- GET: https://safe-island-47056.herokuapp.com/math/add?n1=<numeric param 1>&n2=<numeric param 2>
+- POST: https://safe-island-47056.herokuapp.com/math/add	(allow for form params n1=1,n2=2 in a POST body form data)
+- GET: https://safe-island-47056.herokuapp.com/time/now
 
--[x] All code should be publicly accessible via github url (or similar public git repo).
+> All code should be publicly accessible via github url (or similar public git repo).
 
--[x] The Rest Service should be deployed to a publicly accessible server on the internet (preferably AWS). Please provide reasons why AWS was not used. If the service is not deployed remotely please provide instructions on how to run it locally. The service should be runnable outside an IDE.
+>  The Rest Service should be deployed to a publicly accessible server on the internet (preferably AWS). Please provide reasons why AWS was not used. If the service is not deployed remotely please provide instructions on how to run it locally. The service should be runnable outside an IDE.
 
 ```
 Use VSCode IDE to run locally
@@ -16,9 +16,9 @@ Running on: https://safe-island-47056.herokuapp.com/
 AWS was not used because heroku was ust faster, easier to deploy and use.
 ```
 
--[x] A set of integration tests asserting server functionality (Postman test suites, Rest Assured tests or bash scripts preferred)
+> A set of integration tests asserting server functionality (Postman test suites, Rest Assured tests or bash scripts preferred)
 
--[x] Documentation detailing any service design, security choices regarding api keys or credentials or implementation preferences.
+> Documentation detailing any service design, security choices regarding api keys or credentials or implementation preferences.
 
 ```
 Security was no implimented in theis challenge however I would have intergrated Json Web Token as security. Where access tokens would be issued and revoked accordingly. A database of token and users would need to be registered in order to keep track of issued tokens.
@@ -34,13 +34,13 @@ I would have started this challenge with the seed applictaion: https://github.co
 Docker was not used simply because i wanted to work fast and finish the challenge and furthermore I believe that not everything should just be containerized simply because Docker is a popular and user friendly. The requirements of the project should be researched carefully before deciding whether to use Docker.
 ```
 
--[x] Explain how caching could be performed on the Restful service and pros/cons
+> Explain how caching could be performed on the Restful service and pros/cons
 
 ```
 Caching could be done using redis.
 ```
 
--[x] All documentation and code should be provided within the README.md file in github
+> All documentation and code should be provided within the README.md file in github
 
 ## Developer Test
 
