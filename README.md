@@ -6,7 +6,7 @@
 
 > All code should be publicly accessible via github url (or similar public git repo).
 
->  The Rest Service should be deployed to a publicly accessible server on the internet (preferably AWS). Please provide reasons why AWS was not used. If the service is not deployed remotely please provide instructions on how to run it locally. The service should be runnable outside an IDE.
+> The Rest Service should be deployed to a publicly accessible server on the internet (preferably AWS). Please provide reasons why AWS was not used. If the service is not deployed remotely please provide instructions on how to run it locally. The service should be runnable outside an IDE.
 
 ```
 Use VSCode IDE to run locally
@@ -28,7 +28,7 @@ I would also Impliment a API limter inorder to prevent DDOS
 I would have started this challenge with the seed applictaion: https://github.com/kawnayeen/spring-boot-seed
 ```
 
--[x] A dockerfile providing packaging as a docker container. If omitted please provide reasoning why Docker was not used.
+> A dockerfile providing packaging as a docker container. If omitted please provide reasoning why Docker was not used.
 
 ```
 Docker was not used simply because i wanted to work fast and finish the challenge and furthermore I believe that not everything should just be containerized simply because Docker is a popular and user friendly. The requirements of the project should be researched carefully before deciding whether to use Docker.
